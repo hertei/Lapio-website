@@ -1,4 +1,32 @@
-h1 {color:blue}
-li {color:magenta}
-.jatkuu {color: red}
-* {color:brown}
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #555;
+}
+h1,h2{
+    margin-top: 1em;
+    padding-top: 1em;
+    color: #333;
+}
+h1{
+    text-align: center;
+}
+#kuva{
+    text-align: center;
+}
+.jatkuu{
+    padding: 2px 4px;
+    vertical-align: text-bottom;
+    background: #eee;
+}
+.lukukehys{
+    margin: 0 auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: whitesmoke;
+}
